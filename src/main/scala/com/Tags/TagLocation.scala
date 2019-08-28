@@ -1,6 +1,7 @@
 package com.Tags
 
 import ch.hsr.geohash.GeoHash
+import com.utils.{AmapUtil, JedisConnectionPool, Tag, Utils2Type}
 import org.apache.commons.lang3.StringUtils
 import org.apache.spark.sql.Row
 import redis.clients.jedis.Jedis

@@ -1,6 +1,7 @@
 package com.Tags
 
 import com.typesafe.config.{Config, ConfigFactory}
+import com.utils.TagUtils
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.hbase.client.{Admin, Connection, ConnectionFactory, Put}
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable

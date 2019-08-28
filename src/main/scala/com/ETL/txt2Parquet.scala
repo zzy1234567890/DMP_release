@@ -1,5 +1,6 @@
 package com.ETL
 
+import com.utils.{SchemaUtils, Utils2Type}
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, Row, SparkSession}

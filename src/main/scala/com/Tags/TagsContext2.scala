@@ -1,5 +1,6 @@
 package com.Tags
 
+import com.utils.{JedisConnectionPool, TagUtils}
 import org.apache.spark.SparkConf
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.sql.SparkSession
